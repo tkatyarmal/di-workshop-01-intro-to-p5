@@ -4,9 +4,10 @@
 var r = 255
 var g = 80
 var b = 0
+var o = 250 //opacity
 
 function setup() {
   createCanvas(400, 400)
 
-  background(r, g, b)
+  background(r, g, b, o)
 }
