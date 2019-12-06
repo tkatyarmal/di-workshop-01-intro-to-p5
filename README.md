@@ -124,11 +124,11 @@ var b = 0
 ```
 
 **What might these lines do?**
-
+      initialises 3 variables
 **What happens if you change the numbers?**
-
+      value of the variables change
 **What numbers are allowed / What numbers have an effect?**
-
+      both integers and decimals seem to work
 Look at this line:
 
 ```js
@@ -136,12 +136,13 @@ createCanvas(400, 400)
 ```
 
 **What does createCanvas do?**
-
+      creates a drawing canvas
 **What happens if you change the numbers?**
-
+      changes the size of the canvas
 **What numbers are allowed/what numbers have an effect?**
-
+      both integers and decimals seem to work
 **What happens if you add/remove a number?**
+      requires minimum of 2 numbers. Extra numbers don't have an effect
 
 **Can you guess what the `function setup() {` part does? What happens if you
 change the name of setup?**
@@ -153,7 +154,7 @@ background(r, g, b)
 ```
 
 **What does background do?**
-
+      sets canvas colour to specific rgb code
 **What happens if you change the order of the letters in background? What does
 this tell you about how the computer uses them?**
 

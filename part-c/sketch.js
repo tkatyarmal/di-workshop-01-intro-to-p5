@@ -6,12 +6,12 @@ function setup() {
 function draw() {
   if (keyIsPressed) {
     fill(255, 0, 0)
-    stroke(255, 0, 0)
+    stroke(255, 0, 0)   //border colour for shape. default is black
   } else {
     fill(0, 255, 0)
     stroke(0, 255, 0)
   }
 
-  
+
   ellipse(mouseX, mouseY, 30, 30)
 }
